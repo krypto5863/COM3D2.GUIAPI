@@ -20,4 +20,6 @@ Why this API is better than other UI edits.
 4. Way better for performance than IMGUI.
 5. Sizing, component setup and everything is handled for you.
 
+Below is a picture of what the ExampleCustomConfig produces with the API.
+
 ![COM3D2x64_cdvdzY1IlE](https://user-images.githubusercontent.com/29824718/125689541-14028a54-4ee2-4f42-b378-381ba052ab09.png)
