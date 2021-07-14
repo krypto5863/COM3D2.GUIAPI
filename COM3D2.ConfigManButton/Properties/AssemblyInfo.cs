@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("$COM3D2.ConfigManButton$")]
+[assembly: AssemblyTitle("$ConfigManButton$")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("$COM3D2.ConfigManButton$")]
+[assembly: AssemblyProduct("$ConfigManButton$")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1d7832e3-8127-4a4c-ab02-cb1485630156")]
+[assembly: Guid("37661c53-1bce-4164-84a8-f98cd825d56a")]
 
 // Version information for an assembly consists of the following four values:
 //

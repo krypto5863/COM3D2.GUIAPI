@@ -58,7 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\COM3D2.ConfigManButton\COM3D2.GUIAPI.csproj">
+    <ProjectReference Include="..\COM3D2.GUIAPI\COM3D2.GUIAPI.csproj">
       <Project>{1d7832e3-8127-4a4c-ab02-cb1485630156}</Project>
       <Name>COM3D2.GUIAPI</Name>
     </ProjectReference>
