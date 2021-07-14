@@ -18,5 +18,6 @@ Why this API is better than other UI edits.
 2. Changes occur in runtime and are gone when you close your game. No game files are ever modified and removing the plugin is enough to remove it's functionality.
 3. We use COM's own sprite data to make UIs that fit seamlessly with the game's own UIs.
 4. Way better for performance than IMGUI.
+5. Sizing, component setup and everything is handled for you.
 
 ![COM3D2x64_cdvdzY1IlE](https://user-images.githubusercontent.com/29824718/125689541-14028a54-4ee2-4f42-b378-381ba052ab09.png)
