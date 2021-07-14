@@ -67,7 +67,7 @@ namespace COM3D2.ExampleCustomConfigMenu
 			sect.AddSwitchControl("Switch7");
 			sect.AddSwitchControl("Switch8");
 			var slider = sect.AddSliderControl("Slider 1");
-			var dropdown = sect.AddDropDownControl("Dropdown", new List<string>() { "test", "test2", "mustard", "iridocycltis", "snarf test", "communism", "faggotry"}, "test2");
+			var dropdown = sect.AddDropDownControl("Dropdown", new List<string>() { "test", "test2", "mustard", "snarf test"}, "test2");
 
 			var sect2 = ConfigMenu.AddSection("My Section 2");
 			sect2.AddSliderControl("Slider 5");
@@ -93,7 +93,7 @@ namespace COM3D2.ExampleCustomConfigMenu
 				Main.logger.LogInfo($"DropDown's value changed to {dropdown.Value}");
 			};
 
-			var field = sect2.AddInputFieldControl("Field 1", "Gey");
+			var field = sect2.AddInputFieldControl("Field 1", "InputHere");
 
 			field.ValueChanged += (s, e) =>
 			{
