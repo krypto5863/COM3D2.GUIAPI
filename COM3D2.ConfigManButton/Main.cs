@@ -43,13 +43,20 @@ namespace ConfigManButton
 			logger = Logger;
 
 			//Binds the configuration. In other words it sets your ConfigEntry var to your config setup.
-			DisableManagerHotkey = Config.Bind("General", "Disable ConfigManager Hotkey", false, "Will turn off the F1 key from activating config manager.");
+			DisableManagerHotkey = Config.Bind("General", "Use ConfigManager Hotkey", false, "Will turn off the F1 key from activating config manager.");
+
+			DisableManagerHotkey.SettingChanged += (s,e) => 
+			{
+				ConfigMan.OverrideHotkey = !DisableManagerHotkey.Value;
+			};
+			
 
 			ConfigMan = GetComponent<ConfigurationManager.ConfigurationManager>();
 
 			Button = COM3D2.GUIAPI.ButtonHandler.CreateConfigTabButton("PLUGINS", new EventDelegate(() =>
 			{
 				ConfigMan.DisplayingWindow = !ConfigMan.DisplayingWindow;
+				ConfigMan.OverrideHotkey = !DisableManagerHotkey.Value;
 			}));
 		}
 	}
