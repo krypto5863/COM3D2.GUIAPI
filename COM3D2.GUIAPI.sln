@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COM3D2.GUIAPI", "COM3D2.ConfigManButton\COM3D2.GUIAPI.csproj", "{1D7832E3-8127-4A4C-AB02-CB1485630156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigManButton", "ConfigManButton\ConfigManButton.csproj", "{37661C53-1BCE-4164-84A8-F98CD825D56A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COM3D2.ExampleCustomConfigMenu", "COM3D2.ExampleCustomConfigMenu\COM3D2.ExampleCustomConfigMenu.csproj", "{BD673F55-7F65-43CE-9233-08D31B3C9334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7832E3-8127-4A4C-AB02-CB1485630156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7832E3-8127-4A4C-AB02-CB1485630156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7832E3-8127-4A4C-AB02-CB1485630156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7832E3-8127-4A4C-AB02-CB1485630156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37661C53-1BCE-4164-84A8-F98CD825D56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37661C53-1BCE-4164-84A8-F98CD825D56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37661C53-1BCE-4164-84A8-F98CD825D56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37661C53-1BCE-4164-84A8-F98CD825D56A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD673F55-7F65-43CE-9233-08D31B3C9334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD673F55-7F65-43CE-9233-08D31B3C9334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD673F55-7F65-43CE-9233-08D31B3C9334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD673F55-7F65-43CE-9233-08D31B3C9334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE9EFCDE-EB0B-4298-9BE2-ACE37A2CB277}
+	EndGlobalSection
+EndGlobal
